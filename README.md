@@ -176,8 +176,7 @@ int main(void)
   while (1)
   {
 
-
-	     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
       HAL_Delay(1000);
       HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
       HAL_Delay(1000);
@@ -294,9 +293,11 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 ```
 ## Output  :
- 
- 
- 
+
+ ![WhatsApp Image 2023-08-16 at 5 44 33 PM](https://github.com/Dhanudhanaraj/Experiment-01-INTERFACING-DIGITAL-OUTPUT-FOR-ARM-DEVELOPMENT-BOARD-/assets/119218812/7a099265-a0cc-470b-911c-c75ecf7f2849)
+
+ ![WhatsApp Image 2023-08-16 at 5 49 25 PM](https://github.com/Dhanudhanaraj/Experiment-01-INTERFACING-DIGITAL-OUTPUT-FOR-ARM-DEVELOPMENT-BOARD-/assets/119218812/0680c8a0-22e5-49d2-b53d-c816ef7ff783)
+
  
 ## Result :
 Interfacing a digital output with ARM microcontroller is executed and the results are verified.
